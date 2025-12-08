@@ -183,6 +183,10 @@
   @include clearfix();
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
+  
+  @include breakpoint($large) {
+    @include span(12 of 12);
+  }
 }
 
 .feature__item {
@@ -191,11 +195,12 @@
 
   @include breakpoint($small) {
     margin-bottom: 2em;
-    @include gallery(6 of 12);
+    @include full();
 
-    .feature__item-teaser {
-      max-height: 200px;
+    .archive__item-teaser {
+      max-height: 300px;
       overflow: hidden;
+      margin-bottom: 1em;
     }
   }
 
