@@ -138,10 +138,10 @@
   @include breakpoint($medium) {
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
+    @include gallery(4.5 of 10);
 
     .archive__item-teaser {
-      max-height: 120px;
+      max-height: 200px;
     }
 
     .archive__item-excerpt {
@@ -167,8 +167,8 @@
   font-size: 1.25rem;
 
   @include breakpoint($small) {
-    margin-bottom: 0;
-    @include gallery(4 of 12);
+    margin-bottom: 2em;
+    @include gallery(6 of 12);
 
     .feature__item-teaser {
       max-height: 200px;

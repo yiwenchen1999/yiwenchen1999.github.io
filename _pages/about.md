@@ -6,14 +6,14 @@ redirect_from:
   - /about/
   - /about.html
 feature_row:
-  - image_path: housecrafter-teaser.jpg
+  - image_path: HouseCrafter_Teaser.png
     alt: "HouseCrafter"
     title: "HouseCrafter: Lifting Floorplans to 3D Scenes with 2D Diffusion Models"
     excerpt: "Created a diffusion model that lifts a 2D floorplan into a complete house-scale 3D indoor scene by autoregressively generating consistent RGB-D views at sampled camera locations. Designed a floorplan-aware attention mechanism to maintain spatial consistency across all generated views and support high-quality 3D reconstruction."
     url: /publication/2024-12-01-housecrafter
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: shapecrafter-teaser.jpg
+  - image_path: ShapeCrafter_Teaser.jpg
     alt: "ShapeCrafter"
     title: "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model"
     excerpt: "Worked as part of group to design a recursive 3D generator that evolves a shape as new text phrases are provided sequentially, which enabled interactive 3D modeling conditioned on natural language without retraining."
