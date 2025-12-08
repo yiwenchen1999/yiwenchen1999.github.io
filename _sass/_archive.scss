@@ -243,34 +243,3 @@
     }
   }
 }
-
-/* Vertical feature row layout - full width, stacked vertically */
-.feature__wrapper-vertical {
-  @include clearfix();
-  margin-bottom: 2em;
-}
-
-.feature__item-vertical {
-  width: 100%;
-  margin-bottom: 3em;
-  font-size: 1.25rem;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  .archive__item-teaser-vertical {
-    width: 100%;
-    margin-bottom: 1em;
-
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-  }
-
-  .archive__item-body-vertical {
-    width: 100%;
-  }
-}
