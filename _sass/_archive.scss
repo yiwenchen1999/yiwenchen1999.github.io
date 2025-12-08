@@ -141,30 +141,21 @@
 
   @include breakpoint($small) {
     @include full();
+    
     .archive__item-teaser {
-      max-height: 200px;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 1em;
     }
   }
 
   @include breakpoint($medium) {
     @include full();
 
-    .archive__item {
-      display: flex;
-      align-items: flex-start;
-      gap: 1.5em;
-    }
-
     .archive__item-teaser {
-      flex: 0 0 200px;
-      max-height: 200px;
-      margin-bottom: 0;
-    }
-
-    // Wrap content in a flex container
-    .archive__item-teaser ~ * {
-      flex: 1;
-      min-width: 0;
+      max-height: 300px;
+      overflow: hidden;
+      margin-bottom: 1em;
     }
 
     .archive__item-excerpt {
