@@ -35,6 +35,10 @@
             <h2 class="archive__item-title">{{ f.title }}</h2>
           {% endif %}
 
+          {% if f.authors %}
+            <p class="archive__item-authors"><em>{{ f.authors }}</em></p>
+          {% endif %}
+
           {% if f.excerpt %}
             <div class="archive__item-excerpt">
               {{ f.excerpt | markdownify }}

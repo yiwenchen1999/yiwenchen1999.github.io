@@ -66,6 +66,17 @@
   }
 }
 
+.archive__item-authors {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  font-size: $type-size-6;
+  color: mix(#fff, $gray, 25%);
+  
+  em {
+    font-style: italic;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

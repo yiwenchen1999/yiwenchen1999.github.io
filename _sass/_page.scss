@@ -43,6 +43,17 @@
   }
 }
 
+.page__authors {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: $type-size-5;
+  color: mix(#fff, $gray, 25%);
+  
+  em {
+    font-style: italic;
+  }
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
