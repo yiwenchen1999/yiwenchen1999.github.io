@@ -26,7 +26,7 @@ I am Yiwen Chen (陈逸文), a second-year Ph.D. student at [Khoury College of C
 
 ## Research
 
-{% include feature_row %}
+{% include feature_row_vertical %}
 
 Teaching
 ======
