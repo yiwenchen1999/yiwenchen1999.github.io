@@ -186,7 +186,7 @@
 
   @include breakpoint($small) {
     margin-bottom: 2em;
-    @include full();
+    @include gallery(6 of 12);
 
     .archive__item-teaser {
       max-height: 300px;

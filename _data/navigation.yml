@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Publications"
+    url: /publications/
+
   - title: "CV"
     url: /files/Yiwen_Chen_Resume.pdf
 
