@@ -8,9 +8,9 @@ redirect_from:
 feature_row:
   - image_path: HouseCrafter_Teaser.png
     alt: "HouseCrafter"
-    title: "HouseCrafter: Lifting Floorplans to 3D Scenes with 2D Diffusion Models"
+    title: "HouseCrafter: Lifting Floorplans to 3D Scenes with 2D Diffusion Models(ICCV 2025 highlight)"
     authors: "Yiwen Chen, Hieu T. Nguyen, Vikram Voleti, Varun Jampani, Huaizu Jiang"
-    excerpt: "Created a diffusion model that lifts a 2D floorplan into a complete house-scale 3D indoor scene by autoregressively generating consistent RGB-D views at sampled camera locations. Designed a floorplan-aware attention mechanism to maintain spatial consistency across all generated views and support high-quality 3D reconstruction."
+    excerpt: "We introduce HouseCrafter, an novel approach that can lift a floorplan into a complete large 3D indoor scene (e.g. a house). Our key insight is to adapt a 2D diffusion model, which is trained on web-scale images, to generate consistent multi-view color (RGB) and depth (D) images across different locations of the scene. Specifically, the RGB-D images are generated autoregressively in a batch-wise manner along sampled locations based on the floorplan, where previously generated images are used as condition to the diffusion model to produce images at nearby locations. The global floorplan and attention design in the diffusion model ensures the consistency of the generated images, from which a 3D scene can be reconstructed."
     url: /publication/2024-12-01-housecrafter
     btn_label: "Learn More"
     btn_class: "btn--primary"
@@ -18,7 +18,7 @@ feature_row:
     alt: "ShapeCrafter"
     title: "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model"
     authors: "Rao Fu, Xiao Zhan, Yiwen Chen, Daniel Ritchie, Srinath Sridhar"
-    excerpt: "Worked as part of group to design a recursive 3D generator that evolves a shape as new text phrases are provided sequentially, which enabled interactive 3D modeling conditioned on natural language without retraining."
+    excerpt: "We present ShapeCrafter, a neural network for recursive text-conditioned 3D shape generation. Existing methods to generate text-conditioned 3D shapes consume an entire text prompt to generate a 3D shape in a single step. However, humans tend to describe shapes recursively-we may start with an initial description and progressively add details based on intermediate results. To capture this recursive process, we introduce a method to generate a 3D shape distribution, conditioned on an initial phrase, that gradually evolves as more phrases are added. "
     url: /publication/2022-11-01-shapecrafter
     btn_label: "Learn More"
     btn_class: "btn--primary"
