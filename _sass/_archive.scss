@@ -174,10 +174,6 @@
   @include clearfix();
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
-  
-  @include breakpoint($large) {
-    @include span(12 of 12);
-  }
 }
 
 .feature__item {
